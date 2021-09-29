@@ -1,0 +1,79 @@
+/* Affichage quand l'écran est inférieur à 301pdi*/
+body {
+  background-color: #e35c5c;
+}
+
+#medium,
+#large {
+  display: none;
+}
+
+div {
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+#small {
+  color: #e35c5c;
+}
+
+#medium {
+  color: #81bb99;
+}
+
+#large {
+  color: #549cd6;
+}
+
+h2 {
+  font-size: 18px;
+}
+#p-small {
+  font-size: 14px;
+}
+
+/* Affichage quand l'écran est inférieur à 768pdi*/
+
+@media only screen and (min-width: 301px) {
+  body {
+    background-color: #81bb99;
+  }
+  #small,
+  #large {
+    display: none;
+  }
+  #medium {
+    display: block;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  #p-medium {
+    font-size: 16px;
+  }
+}
+
+/* Affichage quand l'écran est supérieur à 768pdi*/
+
+@media only screen and (min-width: 769px) {
+  body {
+    background-color: #549cd6;
+  }
+  #small,
+  #medium {
+    display: none;
+  }
+  #large {
+    display: block;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  #p-large {
+    font-size: 18px;
+  }
+}
