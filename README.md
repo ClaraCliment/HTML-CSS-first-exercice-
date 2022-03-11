@@ -1,5 +1,5 @@
 # Premier exercice CSS
-### Les media queries & le responsibe
+### Les media queries & le responsive
 
 **Exercice BeCode**
 _Date:_
